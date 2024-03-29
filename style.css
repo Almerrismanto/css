@@ -1,0 +1,170 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #E5D2A7;
+  }
+
+  * {
+    margin: 0px;
+  }
+  header {
+    background-color: #825534;
+    padding: 1rem 3rem;
+  }
+  nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 4rem;
+  }
+  .logo {
+    width: 50px;
+  }
+  .foto-cv{
+    width: 308px;
+    height: 337px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 2rem 2rem;
+  }
+  .profil{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+    align-items: center;
+  }
+  .name{
+    font-weight: 500;
+    font-style: italic;
+  }
+  .about{
+    padding: 0rem 4rem;
+  }
+  .subtitle{
+    padding-bottom: 51px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .about p{
+    font-style: italic;
+  }
+  .about-content{
+    text-align: center;
+  }
+  .Contact{
+    padding-left: 40px;
+    padding-bottom: 76px;
+  }
+  .Education{
+    padding-left: 40px;
+  }
+  .Skill{
+    padding-top: 241px;
+    padding-left: 40px;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  li{
+    padding-top: 27px;
+  }
+  li img{
+    padding-right: 25px;
+    max-width: 45px;
+    max-height: 45px;
+  }
+  .Skill img{
+    width: 100px;
+  }
+  footer{
+    background-color: #825534;
+  }
+  .footer-text{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px 49px;
+    font-weight: 500;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .tentang{
+    padding-right: 152px;
+  }
+  .Client-testimoni{
+    margin-bottom: 308px;
+    margin-top: 88px;
+    padding-left: 75px;
+  }
+  .Client-testimoni h2{
+    margin-bottom: 74px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .Client-testimoni-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .card{
+    background-color: white;
+    width: 544px;
+    height: 440px;
+    border-radius: 24px;
+    margin-right: 88px;
+    padding: 20px 30px 0 20px;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .Client-testimoni img{
+    width: 105px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .deskripsi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .deskripsi h2{
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 50px;
+  }
+  .pembatas{
+    text-align: center;
+  }
+  .Education li{
+    font-style: italic;
+  }
+  .experience img{
+    width: 171px;
+    height: 127px;
+  }
+  .hobbies{
+    margin-top: 59px;
+  }
+  .hobbies img{
+    padding: 0px 20px;
+  }
+  .right-col{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-right: 40px;
+  }
+  .hire-me{
+    padding-top: 30px;
+  }
+  .hire-me p{
+    font-style: italic;
+  }
+  .card img{
+    float: left;
+    padding: 30px;
+  }
+  .pembatas{
+    margin-left: 200px;
+  }
